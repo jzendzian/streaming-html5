@@ -32,6 +32,8 @@ Developing and build the *Red5 Pro HTML Testbed* project requires:
 ## Installation of Requirements
 The *Red5 Pro HTML Testbed* project was develop using [NodeJS v5](https://nodejs.org/en/blog/release/v5.0.0/), though - most likely - will be compatable with *NodeJS >= 0.12*.
 
+**NOTE: best to use node v5 - build fails with v7. Do:  `brew install node@5`**
+
 The preferred *NodeJS* version manager is [n](https://github.com/tj/n); `n` makes it very easy to manage different versions of NodeJS for your development needs. Read and follow the instructions regarding [n on Github](https://github.com/tj/n). As a quick walk through to set up development for this project:
 
 ```sh
