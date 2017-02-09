@@ -48,10 +48,10 @@
     var c = {
       protocol: getSocketLocationFromProtocol().protocol,
       port: getSocketLocationFromProtocol().port,
-      app: 'live',
+      app: 'streaming-server/room1',
       bandwidth: {
         audio: 50,
-        video: 256,
+        video: 512,
         data: 30 * 1000 * 1000
       }
     };
@@ -272,7 +272,7 @@
       streamName: config.stream2,
       bandwidth: {
         audio: 50,
-        video: 256,
+        video: 512,
         data: 30 * 1000 * 1000
       }
     })
